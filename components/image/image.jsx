@@ -1,4 +1,4 @@
-export default = ({src, alt, title}) => (
+export default ({src, alt, title}) => (
     <div class="image">
         <img class="image__image" src="{src}" alt="{alt}" />
         <div class="image--toggle" ng-click="$parent.selectedBadge = image.id">
